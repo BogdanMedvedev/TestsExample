@@ -16,5 +16,4 @@ def calculator(string: str) -> int|float|str:
             return eval(string)
         except ZeroDivisionError:
             return 'На ноль нельзя делить'
-    else:
-        raise ValueError('Необходимо вводить целые числа в формате: a+b')
+    raise ValueError('Необходимо вводить целые числа в формате: a+b')

@@ -1,4 +1,4 @@
-from unittest import TestCase
+from unittest import TestCase, main
 from calculator import calculator
 
 class Calculator(TestCase):
